@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: fit-content;
+    padding: 20px;
+    box-shadow: 0px 7px 10px 5px #888888;
+}
+
+.container div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+input[type="checkbox"]{
+    width: 30px; /*Desired width*/
+    height: 30px; /*Desired height*/
+  }
+button {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(148, 148, 148);
+    border: none;
+}
+.container div h3{
+    width: 200px;
+    padding: 15px 100px;
+    text-align: left;
+}
+.cross {
+    text-decoration:line-through;
+}
+h2{
+    color: black;
+    text-decoration: underline;
+}
